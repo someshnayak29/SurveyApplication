@@ -15,7 +15,9 @@ app.use(cors());
 app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
-const CONNECTION_URL = 'mongodb+srv://someshnayak:someshnayak123@cluster0.uqifj.mongodb.net/?retryWrites=true&w=majority';
+// Replace username and password  of mongodb atlas cluster in below line. Removed in this file because of Github Security concerns
+
+const CONNECTION_URL = 'mongodb+srv://<username>:<password>@cluster0.uqifj.mongodb.net/?retryWrites=true&w=majority';
 
 const PORT = process.env.PORT || 5000;
 
