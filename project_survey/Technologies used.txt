@@ -1,0 +1,8 @@
+Technologies used are:
+
+1. React.js
+2. Node.js
+3. MERN stack
+4. Database
+5. Google Ouath authentication
+6. Express, etc.
